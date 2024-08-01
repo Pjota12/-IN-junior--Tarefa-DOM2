@@ -1,0 +1,62 @@
+html{
+    background-color: rgb(100, 0, 193);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 1em;
+}
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+div.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 20%;
+    height: 20em;
+    border-radius: 5%;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #000;
+    gap: 1em
+
+}
+
+div.User{
+    display: flex;
+    gap: 0.3em;
+    justify-content: center;
+}
+
+section.Notas{
+    width: 98%;
+    height: 75%;
+    overflow-y:scroll;
+    border: 2px solid #626262;
+}
+
+button.btnMed{
+    align-self: flex-start ;
+}
+
+div.divMedia{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+
+
